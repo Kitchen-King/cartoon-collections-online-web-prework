@@ -23,9 +23,7 @@ end
 def find_the_cheese(array)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
-  def FTC(array)
 
-array.any? {|x| ["cheddar", "gouda", "camembert"].include?(x) }
+  array.any? {|x| cheese_types.include?(x) }
 
-end
 end
